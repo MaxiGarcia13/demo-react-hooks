@@ -1,0 +1,46 @@
+.App {
+  min-height: 100vh;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.navi {
+  background-color: #282c34;
+  color: rgb(177, 56, 56);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: rgb(177, 56, 56);
+  color: #282c34;
+}
+
+.title--big {
+  font-size: calc(10px + 4vmin);
+}
+
+.title--normal {
+  font-size: calc(10px + 3vmin);
+}
+
+.title--big,
+.title--normal {
+  transition: font-size 500ms ease-in-out;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+button {
+  padding: 20px;
+  border-radius: 6px;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
